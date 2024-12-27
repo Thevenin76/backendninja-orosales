@@ -24,7 +24,8 @@ public class LoginController {
 
 	@GetMapping("/login")
 	public String showLoginForm(Model model, @RequestParam(name="error", defaultValue="", required=false) String e) {
-		model.addAttribute("userCredentials", "UserCredentials userCredential");
+		//UserCredentials userCredential = new UserCredentials("user", "12345678"); // Crear una instancia
+		//model.addAttribute("userCredentials", userCredential); // Agregar al modelo
 		return "login";
 	}
 	
@@ -35,6 +36,14 @@ public class LoginController {
 			return "contacts";
 		}
 		return "redirect:/login?error";
+	}
+
+	@GetMapping( {"/loginsuccess", "/"}) 
+	public String loginsuccess( ) {
+		
+		LOG.info("Method: loginCheck() " );
+			
+		return "redirect:/contacts/showcontacts";
 	}
 	
 }
