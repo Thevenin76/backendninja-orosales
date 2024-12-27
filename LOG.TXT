@@ -1,0 +1,99 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.udemy:backendninja >-----------------------
+[INFO] Building backendninja 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:1.5.4.RELEASE:run (default-cli) > test-compile @ backendninja >>>
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ backendninja ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ backendninja ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ backendninja ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\personal_repositories\github\backendninja-orosales\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ backendninja ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot:1.5.4.RELEASE:run (default-cli) < test-compile @ backendninja <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:1.5.4.RELEASE:run (default-cli) @ backendninja ---
+@@@@@@@@8&oooo&&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   @@@@#       @@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@&&&&&&o8o.*o&ooo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    :@@         #@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@&&&&&&&          &&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@#88&&&&            &&8@@@@@@@@@@:  @@     @@@@@@       @@@@@@.     #@@   @@@           @@@@@      o@@@@@      @@@
+@##8888&&            .888@@@@@@@@@:          o@@@  :8&    @@@         @@    @@      o@   @@@         *@@          @
+@#888888.            *888@@@@@@@@@:   @@@@    @@@@@@@@@   @@    @@@@@@@@    @@    @@@@   @@:   @@@@@@@@   @@@@@   o
+##888#88*            &&88@@@@@@@@@:   @@@@o   @@@     *   @@    @@@@@@@@    @@    @@@@   @@    @@@@@@@@   @@@@@.   
+@##888&##         8&&&&88@@@@@@@@@:   @@@@    @&   @@@@   @@    @@@@@@@@    @@    @@@@   @@.   @@@@@@@@   @@@@@   o
+@##8888&&&&&&&&&&&&&&&888@@@@@@@@@:          8@@   #@@    @@@     #&  @@    @@    @@@@   @@@     8o  @@@    &*    @
+@@##88888&&&&&&&&&&&8888@@@@@@@@@@:   *     @@@@@     #*   @@@@       @@&   @@   @@@@@   @@@@@       @@@@:      @@@
+@@@###888888&&&&&88888#@@@@@@@@@@@:   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@####88888888888#@@@@@@@@@@@@@:   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@#########@@@@@@@@@@@@@@@@@: .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2024-12-27 18:40:20.520  INFO 22304 --- [           main] c.u.b.BackendninjaApplication            : Starting BackendninjaApplication on DESKTOP-68GQKSN with PID 22304 (C:\personal_repositories\github\backendninja-orosales\target\classes started by a649437 in C:\personal_repositories\github\backendninja-orosales)
+2024-12-27 18:40:20.546  INFO 22304 --- [           main] c.u.b.BackendninjaApplication            : No active profile set, falling back to default profiles: default
+2024-12-27 18:40:21.546  INFO 22304 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d30ad4c: startup date [Fri Dec 27 18:40:21 GMT 2024]; root of context hierarchy
+2024-12-27 18:40:29.474  INFO 22304 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2024-12-27 18:40:29.519  INFO 22304 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-27 18:40:29.522  INFO 22304 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2024-12-27 18:40:29.856  INFO 22304 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-27 18:40:29.857  INFO 22304 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8322 ms
+2024-12-27 18:40:31.190  INFO 22304 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2024-12-27 18:40:31.193  INFO 22304 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2024-12-27 18:40:31.194  INFO 22304 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2024-12-27 18:40:31.194  INFO 22304 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2024-12-27 18:40:31.198  INFO 22304 --- [ost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2024-12-27 18:40:31.198  INFO 22304 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2024-12-27 18:40:34.040  INFO 22304 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2024-12-27 18:40:34.113  INFO 22304 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-12-27 18:40:34.413  INFO 22304 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2024-12-27 18:40:34.417  INFO 22304 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2024-12-27 18:40:34.423  INFO 22304 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2024-12-27 18:40:34.581  INFO 22304 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2024-12-27 18:40:35.083  INFO 22304 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2024-12-27 18:40:37.573  INFO 22304 --- [           main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2024-12-27 18:40:38.107  INFO 22304 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 18:40:41.643  INFO 22304 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1683a5c5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1136f9c8, org.springframework.security.web.header.HeaderWriterFilter@3b3b894e, org.springframework.security.web.csrf.CsrfFilter@1e740a0e, org.springframework.security.web.authentication.logout.LogoutFilter@6e56b520, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@65c7e13b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77447483, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27c74bd0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14489447, org.springframework.security.web.session.SessionManagementFilter@1e3036e, org.springframework.security.web.access.ExceptionTranslationFilter@5081b3d6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57af8874]
+2024-12-27 18:40:42.834  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6d30ad4c: startup date [Fri Dec 27 18:40:21 GMT 2024]; root of context hierarchy
+2024-12-27 18:40:43.227  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts/cancel],methods=[GET]}" onto public java.lang.String com.udemy.backendninja.controller.ContactController.cancel()
+2024-12-27 18:40:43.230  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts/contactform],methods=[GET]}" onto public java.lang.String com.udemy.backendninja.controller.ContactController.redirectContactForm(int,org.springframework.ui.Model)
+2024-12-27 18:40:43.237  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts/addcontact],methods=[POST]}" onto public java.lang.String com.udemy.backendninja.controller.ContactController.addContact(com.udemy.backendninja.model.ContactModel,org.springframework.ui.Model)
+2024-12-27 18:40:43.239  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts/removecontact],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.udemy.backendninja.controller.ContactController.removeContact(int)
+2024-12-27 18:40:43.240  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts/showcontacts],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.udemy.backendninja.controller.ContactController.showcontacts()
+2024-12-27 18:40:43.246  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.udemy.backendninja.controller.LoginController.redirectToLogin()
+2024-12-27 18:40:43.248  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.udemy.backendninja.controller.LoginController.showLoginForm(org.springframework.ui.Model,java.lang.String)
+2024-12-27 18:40:43.249  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logincheck],methods=[POST]}" onto public java.lang.String com.udemy.backendninja.controller.LoginController.loginCheck(org.springframework.data.authentication.UserCredentials)
+2024-12-27 18:40:43.255  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2024-12-27 18:40:43.258  INFO 22304 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2024-12-27 18:40:43.523  INFO 22304 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2024-12-27 18:40:43.523  INFO 22304 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2024-12-27 18:40:43.794  INFO 22304 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2024-12-27 18:40:47.087  INFO 22304 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2024-12-27 18:40:47.689  INFO 22304 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2024-12-27 18:40:47.703  INFO 22304 --- [           main] c.u.b.BackendninjaApplication            : Started BackendninjaApplication in 28.252 seconds (JVM running for 43.436)
+2024-12-27 18:40:50.404  INFO 22304 --- [nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2024-12-27 18:40:50.404  INFO 22304 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2024-12-27 18:40:50.505  INFO 22304 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 101 ms
+Hibernate: insert into log (date, details, url, username) values (?, ?, ?, ?)
+2024-12-27 18:40:52.479  INFO 22304 --- [nio-8080-exec-9] c.u.b.component.RequestTimeInterceptor   : URL to:'http://localhost:8080/login' in : '1844ms' 
+Hibernate: insert into log (date, details, url, username) values (?, ?, ?, ?)
+2024-12-27 18:40:52.770  INFO 22304 --- [io-8080-exec-10] c.u.b.component.RequestTimeInterceptor   : URL to:'http://localhost:8080/login' in : '26ms' 
+2024-12-27 18:40:58.532  INFO 22304 --- [nio-8080-exec-7] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+Hibernate: select user0_.username as username1_3_, user0_.enabled as enabled2_3_, user0_.password as password3_3_ from users user0_ where user0_.username=?
+Hibernate: select userrole0_.username as username3_2_0_, userrole0_.user_role_id as user_rol1_2_0_, userrole0_.user_role_id as user_rol1_2_1_, userrole0_.role as role2_2_1_, userrole0_.username as username3_2_1_ from userrole userrole0_ where userrole0_.username=?
+2024-12-27 18:40:59.094  WARN 22304 --- [nio-8080-exec-7] o.s.s.c.bcrypt.BCryptPasswordEncoder     : Encoded password does not look like BCrypt
+Hibernate: insert into log (date, details, url, username) values (?, ?, ?, ?)
+2024-12-27 18:40:59.265  INFO 22304 --- [nio-8080-exec-6] c.u.b.component.RequestTimeInterceptor   : URL to:'http://localhost:8080/login' in : '147ms' 
+Hibernate: insert into log (date, details, url, username) values (?, ?, ?, ?)
+2024-12-27 18:40:59.661  INFO 22304 --- [nio-8080-exec-4] c.u.b.component.RequestTimeInterceptor   : URL to:'http://localhost:8080/login' in : '48ms' 
